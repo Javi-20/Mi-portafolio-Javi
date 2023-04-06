@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio - Javi R</title>
+    <link rel="shortcut icon" href="./img/carpeta.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="enlace">
+                <img src="./img/logo.png" alt="" class="logo">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <b></b>
+                <li><a href="#"> Mis proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="padre">
+        <div class="hijo1">
+            <p>
+                !Hola¡ mi nombre es
+                <b>Javier Reyes</b>
+                <br>actualmente estudio la carrera de
+                <br> Ing. en TIC'S
+            </p>
+        </div>
+
+        <div class="hijo2">
+            <img src="./img/mi_fotito.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section class="parte2"><br>
+        <center>
+            <p><b>MIS PROYECTOS</b></p>
+        </center><br><br>
+        <img src="./img/fisio.png" alt="" class="proy1"><br>
+        <div class="proyecto">
+            <div class="row">
+                <div class="box">
+                    <h4>Sitio web de clínica de fisioterapia que permite <br> agendar citas y ralizar pagos.</h4>
+                </div>
+            </div>
+        </div><br>
+        <img src="./img/itp.png" alt="" class="proy1"><br>
+        <div class="proyecto">
+            <div class="row2">
+                <div class="box2">
+                    <h4>Flyer web para el concurso de <br> programación de la institución</h4>
+                </div>
+            </div>
+        </div><br>
+    </section>
+
+    <section class="parte3"><br>
+        <center>
+            <p><b>CERTIFICADO Y CONSTANCIAS</b></p>
+        </center><br><br>
+        <center>
+            <p> Mi certifcado reciente <br><b>Programación Web (Front end)</b>
+            </p>
+        </center><br><br>
+        <img src="./img/CERTIFICADO PW.png" alt="" class="proy2"><br>
+    </section>
+    <section class="parte3">
+        <center>
+            <p> Mis constancias</p>
+        </center><br><br>
+        <center>
+            <div class="slide-contenedor">
+                <div class="miSlider fade">
+                    <img src="./img/1.png" alt="">
+                </div>
+                <div class="miSlider fade">
+                    <img src="./img/2.png" alt="">
+                </div>
+                <div class="miSlider fade">
+                    <img src="./img/3.png" alt="">
+                </div>
+                <div class="direcciones">
+                    <a class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                    <a class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                </div>
+                <div class="barras">
+                    <span class="barra active" onclick="posicionSlide(1)"></span>
+                    <span class="barra" onclick="posicionSlide(2)"></span>
+                    <span class="barra" onclick="posicionSlide(3)"></span>
+                </div>
+            </div><br>
+        </center>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
